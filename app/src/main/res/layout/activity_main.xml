@@ -26,7 +26,7 @@
         android:layout_height="180dp"
         android:layout_gravity="center"
         android:src="@drawable/logo"
-        app:civ_border_color="#FF000000"
+        app:civ_border_color="#FFFFFF"
         app:civ_border_width="2dp" />
 
     <TextView
@@ -50,6 +50,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
         app:errorIconDrawable="@null"
         tools:ignore="SpeakableTextPresentCheck" />
 
@@ -74,6 +75,7 @@
         android:drawablePadding="10dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="@color/black"
         app:errorIconDrawable="@null"
         app:passwordToggleEnabled="true"
         tools:ignore="SpeakableTextPresentCheck" />

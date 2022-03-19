@@ -4,15 +4,50 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logoapp"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".DetalleEnhypen"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleExo"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleTwice"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleStraykids"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleBts"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleBlackpink"
+            android:exported="false" />
+        <activity
+            android:name=".Enhypen"
+            android:exported="false" />
+        <activity
+            android:name=".Exo"
+            android:exported="false" />
+        <activity
+            android:name=".Twice"
+            android:exported="false" />
+        <activity
+            android:name=".Straykids"
+            android:exported="false" />
+        <activity
+            android:name=".BTS"
+            android:exported="false" />
+        <activity
+            android:name=".Blackpink"
+            android:exported="false" />
+        <activity
             android:name=".listView"
             android:exported="false" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

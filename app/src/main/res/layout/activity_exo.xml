@@ -14,24 +14,14 @@
         android:background="@color/toolbar"
         android:elevation="4dp"
         android:textAlignment="center"
-        app:title="Explora los Diferentes Grupos"
+        app:title="EXO"
         app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
 
-    <TextView
-        android:id="@+id/textView6"
+    <GridView
+        android:id="@+id/grid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:text="Selecciona tu grupo Favorito!"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textStyle="bold" />
-
-
-    <ListView
-        android:id="@+id/listaGrupos"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:numColumns="2" />
 
 
 </LinearLayout>

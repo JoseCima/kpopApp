@@ -5,10 +5,23 @@
       <map>
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/drawable/encript.xml" value="0.1" />
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/drawable/usuario.xml" value="0.1" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_blackpink.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_bts.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_blackpink.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_bts.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_enhypen.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_exo.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_straykids.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_detalle_twice.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_enhypen.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_exo.xml" value="0.11775362318840579" />
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_list_view.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_list_view_groups.xml" value="0.11458333333333333" />
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_straykids.xml" value="0.11775362318840579" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/activity_twice.xml" value="0.11775362318840579" />
         <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/template.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/alexj/AndroidStudioProjects/kpopApp/app/src/main/res/layout/template_grid.xml" value="0.11775362318840579" />
       </map>
     </option>
   </component>

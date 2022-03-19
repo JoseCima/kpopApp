@@ -1,18 +1,16 @@
 package com.example.kpopapp
 
 import android.content.Context
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.*
-import com.example.kpopapp.Grupo
-import org.w3c.dom.Text
+import android.widget.BaseAdapter
+import android.widget.ImageView
+import android.widget.TextView
 
-class Adaptador(var context:Context, items:ArrayList<Grupo>):BaseAdapter() {
+class AdaptadorGrid (var context: Context, items:ArrayList<Categorias>): BaseAdapter() {
 
-    var items:ArrayList<Grupo>? = null
-
+    var items:ArrayList<Categorias>? = null
     init {
         this.items = items
     }
@@ -30,50 +28,34 @@ class Adaptador(var context:Context, items:ArrayList<Grupo>):BaseAdapter() {
     }
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
-        var holder: ViewHolder? = null
         var vista: View? = convertView
-
+        var holder:ViewHolder? = null
 
 
         if (vista == null){
-            vista = LayoutInflater.from(context).inflate(R.layout.template, null)
+            vista = LayoutInflater.from(context).inflate(R.layout.template_grid, null)
             holder = ViewHolder(vista)
             vista.tag = holder
 
-/*
-            if(position %2 == 1){
-                vista.setBackgroundColor(Color.rgb(255,221,255))
-            }else{
-                vista.setBackgroundColor(Color.rgb(255,170,221))
-            }*/
         }else{
             holder = vista.tag as? ViewHolder
         }
 
 
-        val item = getItem(position) as Grupo
-
-        holder?.nombre?.text = item.nombre
-        holder?.imagen?.setImageResource(item.imagen)
-
-
+        val item = items?.get(position) as? Categorias
+        holder?.nombre?.text = item?.nombrePortada
+        holder?.imagen?.setImageResource(item?.imagenPortada!!)
 
         return vista!!
-
     }
-
-    private class ViewHolder(vista:View){
+    private class ViewHolder(vista: View){
         var nombre: TextView? = null
         var imagen: ImageView? = null
 
-
         init {
-            nombre = vista.findViewById(R.id.nameGroup)
-            imagen = vista.findViewById(R.id.imgViewLogo)
-
+            nombre = vista.findViewById(R.id.nombre)
+            imagen = vista.findViewById(R.id.imagen)
 
         }
     }
-
-
 }
