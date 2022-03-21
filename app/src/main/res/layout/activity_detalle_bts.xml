@@ -15,7 +15,7 @@
         android:background="@color/toolbar"
         android:elevation="4dp"
         android:textAlignment="center"
-        app:title="DETALLES"
+        app:title="Detalles BTS"
         app:titleTextColor="@color/white"></androidx.appcompat.widget.Toolbar>
 
     <TextView
